@@ -1,0 +1,65 @@
+ <div id="photography">
+
+    <hr />
+    <h1 style="text-align: center;font-family: 'Arbutus Slab', serif;"><strong>Photography</strong></h1>
+
+    <div id="aboutmepicpara" style="display: inline-block;padding: 20px;">
+    <div style="float:left;margin: auto; width: 50%; border: 3px  ; padding: 1px; display:flex; align-items:center; justify-content:center;">
+        <td >
+            <p style=" font-size: 20px;color: #333333; font-family: 'Arbutus Slab', serif; padding-top: 8px; padding-right: 80px; ">
+              I picked up photography about two years ago. It was right around when I realize how beautiful the world actually was. 
+               Photogrphy became a way for me to capture this beauty, whether it be a mesmerizing sunset or a unforgettable moment with friends and family, At some point, 
+                photography pushed me to become a perfectionist in a way as I wanted to replicate, not only the scenery I saw, but also the emotions that came with every photo. 
+                Feel free to contact me for any shoots that you want done. Below are some of my photos that I have taken.
+              </p>
+        </td>
+    </div>
+
+
+
+<td style="width: 450.8px;float:left; width: 50%; border: 3px  ; padding: 1px;padding-right: 70px;">
+
+<h3 style="font-size: 25px;color: #333333; font-family: 'Arbutus Slab', serif;">Camera: Canon 5D Mark III</h3>
+<h3 style="font-size: 25px;color: #333333; font-family: 'Arbutus Slab', serif;">Lenses:</h3>
+<ul style="font-size: 20px;color: #333333; font-family: 'Arbutus Slab', serif;list-style-position: inside;" >
+<li>Canon 85mm F/1.2</li>
+<li>Canon 50mm F/1.2</li>
+<li>Sigma Art 35mm F/1.4</li>
+<li>Tokina 16mm-28mm F/2.8</li>
+<li>Canon 17mm-40mm F/4</li>
+</ul>
+</td>
+<p>&nbsp;</p> 
+<br>
+<br>
+<br>
+<br>
+</div>
+
+
+<div>
+<div ng-controller="Ctrl">
+<div carousel interval="6000" style=" height:350px;">
+      <div slide ng-repeat="slide in slides" active="slide.active">
+        <img ng-src="{{slide.image}}" style="margin: auto;">
+        <div class="carousel-caption">
+         <!-- <h4>Slide {{$index}}</h4> -->
+          <a href="{{slide.url}}" target="_blank">View Image</a>
+        </div>
+      </div>
+    </div>
+
+    
+  
+  
+
+
+
+
+<!-- The four columns -->
+
+
+ 
+ 
+ 
+ 
